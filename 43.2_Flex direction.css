@@ -1,0 +1,49 @@
+/*
+#__ Flex direction __#
+
+   -This establishes the main-axis, thus defining the direction flex items are placed in the flex container.
+   -Syntax:
+        .container {
+            flex-direction: row | row-reverse | column | column-reverse;
+        }
+     Values:
+        row (default): left to right in ltr; right to left in rtl
+        row-reverse: right to left in ltr; left to right in rtl
+        column: same as row but top to bottom
+        column-reverse: same as row-reverse but bottom to top
+*/
+
+
+h1{
+    padding: 0 0 0 40px;
+}
+.container{
+    background:#eee;
+    width:600px;
+    margin: 50px auto 0;
+    padding: 10px;
+    border : 3px solid #000;
+
+    /* Flex Property */
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item1{
+    background:orangered;
+}
+.item2{
+    background:yellowgreen;
+}
+.item3{
+    background:purple;
+}
+.item4{
+    background:hotpink;
+}
+.items{
+    color:#fff;
+    font-size:20px;
+    font-weight: 300;
+
+}

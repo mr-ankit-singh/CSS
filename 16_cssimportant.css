@@ -1,0 +1,8 @@
+div{
+    border: 1px solid blue !important;
+
+}
+div{
+    border: 1px solid green;
+}
+/*  ! impoortant : yeh sabhi priority ko hata deta hai or jha important hota hai usi ko sabsa jada priority deta hai*/

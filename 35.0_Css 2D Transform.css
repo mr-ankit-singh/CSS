@@ -1,0 +1,52 @@
+/* 2D Transformation se hm move ,rotate ,scale yah skew kr sakte 
+   yeh block or block-inline ke saath hi kaam kerta hai
+   
+   There are 4 property:-
+   1)translate()
+   2) (deg) 
+   3)scale()
+   4)skew(deg)
+
+   */
+   
+div{
+   padding:20px;
+   margin:20px;
+}
+#translate{
+   text-decoration: none;
+   background-color:orange;
+   color:blue;
+   padding:10px 20px;
+}
+#translate:hover{
+   display:inline-block;
+   transform:translate(20px ,20px); /*translate(x ,y):woh apna position kitna move keraga x or y me*/
+}
+#rotate{
+   text-decoration: none;
+   background-color:red;
+   color:white;
+   padding:10px 20px;
+}
+#rotate:hover{
+   display:inline-block;
+   transform:rotate(20deg); 
+}
+#scale{
+   text-decoration: none;
+   background-color: green;
+   color:aqua;
+   padding:10px 20px;
+}
+#scale:hover{
+   display:inline-block;
+   transform:scale(0.5 ,0.8); /*scale : es se hm bada yah chhota kr sakte hai*/
+}
+#skew{
+   background-color: yellow;
+   text-decoration: none;
+   color:black;
+   display:inline-block;
+   transform:skew(20deg , 10deg);
+}

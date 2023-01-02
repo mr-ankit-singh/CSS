@@ -1,0 +1,31 @@
+/*
+There three type of selector
+  -Element selector
+  -Id selector
+  -class selector
+
+priority
+   -Id selector
+   -Class selector
+   -Element Selector
+
+-An element should have only one Id but they have more tha one class.
+*/
+
+
+/*Element selector */
+p{
+    color:red; 
+}
+/* Id selector */
+#p3{
+    color:blue;
+}
+#h{
+    font-size: 70px;
+}
+/* Class selector */
+
+.Green-text{
+   color: green ;
+}

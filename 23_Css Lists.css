@@ -1,0 +1,11 @@
+li{
+    border:1px solid red;
+}
+ul{
+    list-style-type: none;/*(none,square,circle,disc)*/
+    list-style-image: url('img.png');/* image ka path denge */
+    list-style-position: inside; /* es property se hm list me kuch v ander yah bahar kr sakte(property = inside , outside)*/
+}
+ol{
+    list-style-type: upper-alpha;/*(upper-alpha,lower-alpha,lower-roman,upper-roman,decimal,decimal-leading-zero(01,02..))*/
+}

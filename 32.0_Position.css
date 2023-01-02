@@ -1,0 +1,28 @@
+/*
+Four property of position
+  -static (default)
+  -relative
+  -fixed
+  -absolute
+
+relative,fixed,absolute (yeh thin me yeh 4 property use kr sakte hai)
+   -top
+   -bottom
+   -left
+   -right
+
+RELATIVE 
+ 1.nornal position ko occupy kiye rehta hai
+ 2.woh apna nornal position se hi change hota hai style ka according
+ 3.Apna gajah se calculation start krta hai
+ 4. yeh apna gajah per kisi ko aane nahi deta hai
+
+ABSOLUTE
+ 1.APNA SPACE CHHOD DETA HAI
+ 2.APNA PARENT KE ACCORDING SHIFT HOTA HAI
+ 3.Apna nearest position parent se caluclation start krta hai 
+
+FIXED
+ 1.viewport ke hisab se kuch fixed krna ho toh fixed ka use kerte hai
+ 2.scroll krna per v kuch effect nahi padta hai
+*/

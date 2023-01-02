@@ -1,0 +1,12 @@
+/* Object-fit property image yah video per lagta hai */
+img{
+    border:1px solid red;
+    width: 500px;
+    height: 400px;
+    object-fit : contain;
+    object-position : top ;
+}
+/* property of object-fit
+  -contain :yeh img ke orgional ratio ko disturb nahi kerta 
+  -fill: diye hua height  width me set ho jata hai
+  -cover : sera area ko cover kr leta hai */

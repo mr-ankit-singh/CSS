@@ -1,0 +1,16 @@
+/*
+ Three way to insert Css
+   -External Css
+   -Internal Css
+   -Inline Css
+
+   External and Internal work in multi line
+ Priority
+  -Inline
+  -Internal or external me jo last me command hota hai usa priority jada milta hai...
+   
+*/
+
+p{
+    color : blue;
+}

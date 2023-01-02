@@ -1,0 +1,25 @@
+table{
+    border: 1px solid red;
+    border-collapse: separate;
+    border-spacing: 25px 35px;
+    empty-cells:hide;/* Agar koi empty cell hoga woh hide ho jyega*/
+}
+caption{
+    border: 1px solid red;
+}
+tr{
+    border: 1px solid red;/* yeh border nahi leta*/
+}
+th{
+    border: 1px solid red;
+    height:30px;
+    padding:5px;
+    text-align: right;
+}
+td{
+    border: 1px solid red;
+    height:30px;
+    padding:5px;
+    text-align: right;
+    vertical-align: top;
+}

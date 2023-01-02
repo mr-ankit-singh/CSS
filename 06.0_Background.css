@@ -1,0 +1,16 @@
+
+body{
+    background-color:aqua;
+}
+#bga{
+    background-color: blue;
+}
+#bg{
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+

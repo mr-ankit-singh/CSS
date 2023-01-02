@@ -1,0 +1,14 @@
+/*
+#__ align-self __#
+
+   -One item with a align-self value is positioned along the bottom of a flex parent 
+    instead of the top where all the rest of the items are.
+   -This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.
+
+   -Please see the align-items explanation to understand the available values.
+   -Syntax:
+        .item {
+          align-self: auto | flex-start | flex-end | center | baseline | stretch;
+        }
+
+*/

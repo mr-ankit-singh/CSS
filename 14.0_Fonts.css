@@ -1,0 +1,19 @@
+h1{
+    font-weight: 900;
+}
+/*@font-face{
+    font-family:   ;
+    src: url('path');
+}*/
+#font{
+    font-family: sans-serif;
+}
+p{
+    font-size:20px;
+    font-weight:bold;/* wo letter kitna mota yah patla hai*/
+    font-style:italic;
+}
+#par{
+    font-size: 20px;
+    font-variant:small-caps;
+}

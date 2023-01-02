@@ -1,0 +1,21 @@
+p::first-line{
+    font-size:35px;
+    color:red;
+}
+p::first-letter{
+    font-size:30px;
+    color:red;
+}
+/*Es se hm css ka use kr ke hm kuch v likh sakte */
+h1::before{
+    content: url(img.png);
+}
+h1:after{
+    content: " Adding next" 
+    }
+/* Es broperty se hm select ke color yah background ko change kr salte*/
+::selection{
+    color:palevioletred;
+    background:blue;
+}
+

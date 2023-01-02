@@ -1,0 +1,36 @@
+@keyframes changecolor{
+    /*from{
+        background-color:red;
+    }
+    to{
+        background-color:yellow;
+    }*/
+    0% { background-color:red;}
+    25% { width:300px;}
+    50% { background-color:green;}
+    75% { width:200px;}
+    100%  { background-color:red;}
+}
+
+
+#animate{
+    background-color: red;
+    height:200px;
+    width:200px;
+    margin:100px;
+    animation-name:changecolor;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+#animate1{
+    background-color: red;
+    height:200px;
+    width:200px;
+    margin:100px;
+    animation-name:changecolor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;/*reverese ,alternate ,alternate-reverse*/
+    animation-timing-function: ease-in-out;/*ease ,ease-in , ease-out , ease-in-out*/
+}

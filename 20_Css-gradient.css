@@ -1,0 +1,43 @@
+/* 
+2 color ko smoothly mix krna ko gradient khete hai 
+Two types:-
+ -linear gradient
+ -radial gradient
+ */
+
+ #div1{
+     height: 100px;
+     width:100px;
+     border:1px solid blue;
+     background-image: linear-gradient(red,green,blue,orange);
+ }
+ #div2{
+    height: 100px;
+    width: 100px;
+    border:1px solid blue;
+    background-image: linear-gradient(to right,red,green,blue,orange);
+}
+#div3{
+    height: 100px;
+    width: 100px;
+    border:1px solid blue;
+    background-image: linear-gradient(to bottom right,red,green,blue,orange);
+}
+#div4{
+    height: 100px;
+    width:100px;
+    border:1px solid blue;
+    background-image: radial-gradient(red,green,blue,orange);
+}
+#div5{
+   height: 100px;
+   width: 100px;
+   border:1px solid blue;
+   background-image: radial-gradient(circle ,red 50%,green 20%,blue 30%);
+}
+#div6{
+   height: 100px;
+   width: 100px;
+   border:1px solid blue;
+   background-image: radial-gradient(radial,red,green,blue,orange);
+}

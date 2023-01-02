@@ -1,0 +1,16 @@
+body{
+    border: 4px dotted red;
+}
+.div1{
+    border: 1px solid blue;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 2px;
+}
+#marg{
+    margin-top: -20px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 15px;
+}

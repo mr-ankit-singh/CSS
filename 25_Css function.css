@@ -1,0 +1,30 @@
+:root{
+    --primary-color: pink;
+    --btn-color: green;
+    --text-color:black;
+}
+#fun{
+    background-color:blue;
+    height: 200px;
+    width: calc(100% - 200px);
+}
+a{
+    padding:10px 30px;
+    margin: 20px;
+    background-color:red;
+    color: antiquewhite;
+    text-decoration:none ;
+}
+#fun-var{
+    background-color:var(--primary-color);
+    height: 200px;
+    width: calc(100% - 200px);
+}
+#a-var{
+    padding:10px 30px;
+    margin: 20px;
+    background-color:var(--btn-color);
+    color: var(--text-color);
+    text-decoration:none ;
+}
+/* calc(): yeh function kisi 1 part ko fix rekhta hai agar hm page ke size ko badhte yah ghate hai fir v*/

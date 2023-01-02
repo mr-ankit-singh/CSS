@@ -1,0 +1,20 @@
+/* Pseudo class : kisi ek element ke special state ko pseudo class khehte hai */
+li:first-child{/*es tarah se hm first child kostyle kr sakte hai*/
+    color:red;
+}
+li:last-child{/*es tarah se hm last child kostyle kr sakte hai*/
+    color:pink;
+}
+li:nth-child(4){
+    color:yellow;
+}/* 
+li:nth-child(){
+    color:yellow;
+}
+   --es me odd even v pass kr sakte
+   --koi pattern v daal sakte
+   */
+
+input:focus{/*Jb aap uske ander yah usper click kerange toh woh dark yah focus ho jyega*/
+    border:2px solid blue;
+}

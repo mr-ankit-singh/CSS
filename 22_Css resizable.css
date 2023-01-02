@@ -1,0 +1,23 @@
+#overflow-scroll{
+    background-color: orangered;
+    border : 1px solid blue;
+    height: 300px;
+    width:500px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    resize:both;
+}
+
+/* Resizable ka 4 property hota hai
+    -none
+    -horizontal
+    -vertical
+    -both
+NOTE - sirf block element ko hi resize kr sakte hai
+
+jo text area hota hai woh resizable hota hai by default
+
+*/
+textarea{
+    resize: none;
+}

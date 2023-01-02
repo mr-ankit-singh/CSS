@@ -1,0 +1,34 @@
+img{
+    width:100px;
+    height:auto;
+    padding:6px;
+}
+/*
+ Float : when we have to move element left or right 
+*/
+#img1{
+    float:left;
+}
+#img2{
+    float:right;
+}
+/* Ex:2 Nav Bar */
+ul{
+    background-color: blue;
+    list-style-type:none;
+    overflow:auto;
+}
+li{
+    color:white;
+    padding:8px 20px;
+    float:right;
+}
+/* Clear: jb hm float hua value se kisi ko left yah write krna chahte ho */
+
+#img3{
+    float:right;
+}
+#img4{
+    float:right;
+    clear:right;
+}

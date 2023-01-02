@@ -1,0 +1,11 @@
+/* 
+Padding : The gap between border and content
+*/
+
+#div1{
+    border: 1px solid blue;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 2px;
+}

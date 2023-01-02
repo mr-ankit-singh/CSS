@@ -1,0 +1,19 @@
+/*
+#__ Flex Box __#
+
+   -New module in css to easy align elements in different direction ond orders.
+   -Flexbox is to gives container the ability to expend and shrink elements to best use all the available space.
+   -Css Flexbox layout replaces float layout.
+   -New ay to build one-dimensional layouts.
+
+
+   Properties:
+   
+       flex-direction       justify-contect
+       flex-wrap            align-content
+       flex-flow            align-items
+       flex-grow            align-self
+       flex-shrink          order
+       flex-basis           flex
+       
+*/

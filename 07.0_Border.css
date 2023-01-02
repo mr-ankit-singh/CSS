@@ -1,0 +1,21 @@
+#Border{
+    border-style: dotted;
+    border-width: 5px;
+    border-color: blue;
+
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color: red;
+
+    border-radius : 15px; /*user to make curver the corner*/
+}
+/* 
+sequence followed 
+   -top
+   -right
+   -bottom
+   -left
+
+
+   ex :  border style : solid dashed none dotted;
+*/

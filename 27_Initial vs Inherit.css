@@ -1,0 +1,12 @@
+#green{
+     color: green;
+}
+#red{
+    color:red;
+}
+#initial{
+    color:initial;/* Initial : jo default css value hota hai wahi aa jata hai*/
+}
+#inherit{
+    color:inherit; /*Inherit: Jo parent ka hota hai wahi le leta hai */
+}

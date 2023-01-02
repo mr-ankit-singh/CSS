@@ -1,0 +1,23 @@
+#div1{
+    background-color:violet;
+    width:600px;
+    height:150px;
+}
+#div2{
+    background-color:rgb(114, 99, 94);
+    width:600px;
+    height:150px;
+    padding:50px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+#div3{
+    background-color:rgb(190, 82, 82);
+    width:600px;
+    height:150px;
+    padding:50px;
+    border: 10px solid blue;
+    box-sizing: content-box;
+}
+/* box-sizing: borderbox-jitna box ka hight widht hotha utna hi rehaga lakin content ka size km hoga
+               content-box-esme contebt ka size badhta hai

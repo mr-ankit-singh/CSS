@@ -1,0 +1,28 @@
+div{
+    border:2px solid red;
+    width:500px;
+    margin: 100px;
+    padding: 20px;
+    background-color: blue;
+    box-shadow:10px 20px 10px 3px orange;
+}
+#inset{
+    border:2px solid red;
+    width:500px;
+    margin: 100px;
+    padding: 20px;
+    background-color: blue;
+    box-shadow:10px 20px 10px 3px orange inset;
+}
+#multipleshadow{
+    border:2px solid red;
+    width:500px;
+    margin: 100px;
+    padding: 20px;
+    background-color: blue;
+    box-shadow:10px 20px 10px 3px orange,-10px 20px 10px 3px black;
+}
+/* 
+box-shadow: x-axis y-axis blur spread-radius colour
+inset : agar shadow ander ko banana haitoh inset ka use krte
+*/

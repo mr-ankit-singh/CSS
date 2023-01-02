@@ -1,0 +1,28 @@
+.display{
+    border: 2px solid blue;
+    height: 100px;
+    width:50%;
+}
+.display-inline{
+    border: 2px solid blue;
+    height: 100px;
+    width:50%;
+    display:inline;
+}
+.display-inline-block0{
+    border: 2px solid blue;
+   
+    display:inline-block;
+}
+.display-inline-block{
+    border: 2px solid blue;
+    height: 60px;
+    width:30%;
+    display:inline-block;
+}
+#none{
+    display:none;/*element ka space remove ho jata hai*/
+}
+#none1{
+    visibility: hidden;/*es me jo element hota hai usko space mil jata hai*/
+}

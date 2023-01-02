@@ -1,0 +1,29 @@
+#text{
+    width:1000px;
+    height: 200px;
+    border: 2px solid red;
+    color : orange; /*text ka color ko change kr sakte*/
+    text-align: center; /* text kyse arrange hoga wo hm text align property se set ke sakte*/
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+#shadow{
+    font-size: 50px;
+    /*text-shadow: hor ver blur color; */
+    text-shadow : 3px 5px 7px red ;
+}
+/*
+---color : text ka color ko change kr sakte
+---text-align : text kyse arrange hoga wo hm text align property se set ke sakte (left right center justify and soon)
+---vertical-align : kisi v text or image ke bich me uske position ko set krna ka liya eska use krte hai
+---text-decoration : text ko decorate krna ke liya (underline,overline{text ke upar line hota},
+                  none{by default},line-through{bich me se line hota})
+---text-transform : es me text ko upper case lowercase or capatlize me change kr sakte
+---line-height : 2 line ke bich me gap dena ke liya use hota
+---text-indent : 1st word kitna space chhodh ke start ho
+---letter-spaccing : letter ke bich ma space dena ka liya use hota
+---word-spaccing : word ke bich ma space dena ka liya use hota
+---white-space : (pre,nowrap{1 hi line me ho jata})
+---word-wrap
+---writing-mode

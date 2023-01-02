@@ -1,0 +1,16 @@
+img{
+    width:100px;
+    height: 100px;
+}
+#blur{
+    filter: blur(5px); /* blur(blur radius) */
+}
+#brightness{
+    filter: brightness(20%);
+}
+#contrast{
+    filter: contrast(70%);
+}
+#gray-scale{
+    filter: grayscale(90%)
+}

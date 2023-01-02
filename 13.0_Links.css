@@ -1,0 +1,23 @@
+a{
+    text-decoration:none;
+    font-size: 50px;
+}
+a:link{
+     color: blue;
+}
+a:visited{
+     color:black;
+}
+a:hover{
+     color: red;
+}
+a:active{
+     color:green;
+}
+/*
+There are many state of links:-\
+  -link(normal state)
+  -visited 
+  -hover
+  -active
+ 

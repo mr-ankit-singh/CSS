@@ -1,0 +1,74 @@
+#parent{
+    border: 2px solid red;
+    padding:20px;
+    width :50%;
+    margin: 100px;  
+    
+}
+
+#one{
+    width:100px;
+    height:100px;
+    background-color:green;
+    display:inline-block;
+}
+
+#two{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    display:inline-block;
+}
+
+
+#three{
+    width:100px;
+    height:100px;
+    background-color: red;
+    display:inline-block;
+}
+/*relative*/
+#two-relative{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    display:inline-block;
+    position:relative;
+    top:50px;
+    left:50px;
+}
+/*absolute*/
+#parent1{
+    border: 2px solid red;
+    padding:20px;
+    width :50%;
+    margin: 100px;  
+    position:absolute;
+}
+#two-absolute{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    left:0px;
+   
+}
+/*Fixed*/
+#parent2{
+    border: 2px solid red;
+    padding:20px;
+    width :50%;
+    margin: 100px;  
+    height:100px;
+}
+#two-fixed{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    display:inline-block;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+}

@@ -1,0 +1,29 @@
+
+#overflow{
+    background-color: orangered;
+    border : 1px solid blue;
+    height: 300px;
+    width:500px;
+}
+#overflow-hidden{
+    background-color: orangered;
+    border : 1px solid blue;
+    height: 300px;
+    width:500px;
+    overflow:hidden;
+}
+#overflow-scroll{
+    background-color: orangered;
+    border : 1px solid blue;
+    height: 300px;
+    width:500px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+/* Overflow tb use hota jb hmera content container ka size sa jada ho
+    overflow : visible(by default)
+              -hidden (es me jo content bahar hota hai wof cut ho jata hai)
+              -scroll (es me scroll bar aa jata hai jis hm scroll krke sb dekh pate)
+                 X Y axis ka use krke scrollbar ko hta sakte hai
+              -auto(khud decide hota hai ki scroll dena hai ki nahi data ke hisab se)
+ */ 

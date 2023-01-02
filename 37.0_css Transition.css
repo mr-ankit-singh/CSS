@@ -1,0 +1,28 @@
+/* Transition: smoothly chane the property of any element 
+ transition : property , duration , timing-function , delay ;
+*/
+#div1{
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    margin: 50px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+#div1:hover{
+    width:200px
+}
+#div2{
+    height:100px;
+    width:100px;
+    background-color: red;
+    margin: 50px;
+    transition-property:width,background-color ,height;/* etna property likhne ke wajay hm (all) kr denge toh kaam ho jyega */
+    transition-duration: 2s;
+}
+#div2:hover{
+    background-color:blue;
+    width:200px;
+    height:200px;
+}

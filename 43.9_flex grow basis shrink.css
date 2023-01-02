@@ -1,0 +1,32 @@
+/*
+#__ flex-grow __#
+
+   -two rows of items, the first has all equally-sized items with equal flex-grow numbers, the second with the center item at twice the width because its value is 2 instead of 1.
+   -This defines the ability for a flex item to grow if necessary. 
+   -It accepts a unitless value that serves as a proportion. 
+   -It dictates what amount of the available space inside the flex container the item should take up.
+   -If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children. 
+   -If one of the children has a value of 2, that child would take up twice as much of the space either one of the others (or it will try, at least).
+   -Syntax:
+        item {
+         flex-grow: 4; /* default 0 *
+        }
+
+#__ flex-basis __#
+
+   -This defines the default size of an element before the remaining space is distributed. 
+   -Syntax:
+        .item {
+          flex-basis:  | auto; /* default auto *
+        }
+
+#__ flex-shrink __#
+
+   -This defines the ability for a flex item to shrink if necessary.
+   -Syntax:
+        .item {
+          flex-shrink: 3; /* default 1 *
+        }
+
+    Note: Negative numbers are invalid.
+*/

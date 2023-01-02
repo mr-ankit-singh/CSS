@@ -1,0 +1,78 @@
+/*Advance selector
+ 1)Type selector 
+    h1{
+      color:red;
+      }
+
+ 2)Id selector
+    #h1{
+     color:red;
+     }
+
+ 3)Class selector
+    .h1{
+      color:red;
+     }
+
+ 4)Pseudo class or pseudo element
+    a:hover{
+        color:red;
+      }
+      
+    p::first-line{
+        color:red;
+     }
+ 5)Attribute selector
+    a[href="https://example.co"]{
+        color:red;
+     }
+
+ 6)Universal selector
+    *{
+       color:red;
+     }
+
+ 7)Combinator selector
+   a)Descendent combinatory(child at any stage) 
+      .red-p span{color:green;
+      }
+   b)Child combinatior(Direct child)
+      .red-p > span{color:green;
+      }
+   c)Adjacent combinator(right after sibling)
+      .red-p + h1{color:green;
+      }
+   d)General sibling combinatory(all sibling)
+     .red-p ~ span{color:green;
+      }
+   e)General sibling combinatory(right after sibling)
+     .red-p , h1{color:green;
+      }
+
+*/
+
+li{
+    color:red;
+}
+#list2{
+    color:blue ;
+}
+.list5{
+    color:green ;
+}
+/*pseudo class*/
+a:hover{
+    color:darkred;
+}
+/*pseudo element*/
+p::first-line{
+    color:violet;
+}
+/*Attribute selector*/
+a[ href="https://www.google.com"]{
+    color:blue;
+}
+/*Universal selector*/
+*{
+    border: 0.6px solid blue;
+}

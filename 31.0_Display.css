@@ -1,0 +1,27 @@
+/* 
+ Four type of display property
+    -block
+    -inline
+    -inline-block
+    -none
+ 
+ block
+ 1. new line
+ 2. full width
+ 3. change height and width
+
+ inline
+ 1. no new line
+ 2. no full width
+ 3. not change height and width
+
+  inline-block
+ 1. no new line
+ 2. no full width
+ 3. change height and width
+
+ none
+ 1.it remove the element
+
+
+*/

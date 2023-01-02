@@ -1,0 +1,18 @@
+/* opacity : Es sa kisi v element ko transparent bna sakte hai */
+#red-box{
+    background-color: red;
+    height:100px;
+    width: 120px;
+    margin-bottom: 20px;
+}  
+#blue-box{
+    background-color: blue;
+    height:100px;
+    width: 120px;
+    opacity: 0.5;
+}
+img:hover{
+    height: 100px;
+    width: 200px;
+    opacity: 0.8;
+}
